@@ -1,0 +1,7 @@
+*
+<<<<<<< HEAD
+=======
+!private/
+>>>>>>> 8f657c0a93cd52da770ffd6b01d7ceee028dcaf8
+!public/
+!.gitignore

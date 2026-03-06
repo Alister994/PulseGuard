@@ -1,0 +1,9 @@
+{
+  "api_url": "https://your-biotime-site.com/api/device/sync",
+  "device_key": "YOUR_DEVICE_API_KEY_FROM_SETUP_DEVICES",
+  "csv_encoding": "utf-8",
+  "csv_columns": {
+    "device_user_id": "userId",
+    "punch_time": "dateTime"
+  }
+}

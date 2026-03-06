@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+
+<<<<<<< HEAD
+=======
+use Illuminate\Foundation\Application;
+>>>>>>> 8f657c0a93cd52da770ffd6b01d7ceee028dcaf8
+use Symfony\Component\Console\Input\ArgvInput;
+
+define('LARAVEL_START', microtime(true));
+
+// Register the Composer autoloader...
+require __DIR__.'/vendor/autoload.php';
+
+// Bootstrap Laravel and handle the command...
+<<<<<<< HEAD
+$status = (require_once __DIR__.'/bootstrap/app.php')
+    ->handleCommand(new ArgvInput);
+=======
+/** @var Application $app */
+$app = require_once __DIR__.'/bootstrap/app.php';
+
+$status = $app->handleCommand(new ArgvInput);
+>>>>>>> 8f657c0a93cd52da770ffd6b01d7ceee028dcaf8
+
+exit($status);

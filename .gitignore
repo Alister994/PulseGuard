@@ -1,0 +1,44 @@
+<<<<<<< HEAD
+/.phpunit.cache
+=======
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+>>>>>>> 8f657c0a93cd52da770ffd6b01d7ceee028dcaf8
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+<<<<<<< HEAD
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+=======
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+>>>>>>> 8f657c0a93cd52da770ffd6b01d7ceee028dcaf8

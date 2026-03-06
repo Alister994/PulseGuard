@@ -1,0 +1,5 @@
+# PulseGuard – Laravel Scheduler (cron)
+# Add this line to your crontab (crontab -e):
+# * * * * * cd /path/to/pulseguard && php artisan schedule:run >> /dev/null 2>&1
+
+* * * * * cd /path/to/your/pulseguard && php artisan schedule:run >> /dev/null 2>&1
