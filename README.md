@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PulseGuard – Laravel Uptime & SSL Monitor
 
 Production-ready Laravel 11 application for monitoring website uptime and SSL certificate expiration. Includes HTTP ping every minute, downtime logging, response time tracking, SSL expiry alerts (30 days before), and configurable notifications (Slack, Telegram, Email, Webhook). Built with a service layer, queue workers, Laravel Scheduler, and optional WebSocket events for real-time alerts.
